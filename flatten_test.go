@@ -17,5 +17,5 @@ func ExampleFlatten() {
 	}
 
 	fmt.Println(flat.Flatten(Human{Eyes: &X{Quantity: 2}, Tongue: X{}}))
-	//Output map[eyes.quantity:2 tongue.quantity:0] <nil>
+	// Output: map[eyes.quantity:2 tongue.quantity:0] <nil>
 }
