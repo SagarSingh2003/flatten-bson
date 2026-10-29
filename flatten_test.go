@@ -3,7 +3,7 @@ package flattenbson_test
 import (
 	"fmt"
 
-	flat "github.com/SagarSingh2003/flatten-bson.git"
+	flat "github.com/SagarSingh2003/flatten-bson"
 )
 
 func ExampleFlatten() {
